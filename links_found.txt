@@ -1,0 +1,3 @@
+http://example.com
+https://dangerous-link.com
+http://school.edu
