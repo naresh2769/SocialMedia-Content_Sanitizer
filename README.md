@@ -44,33 +44,43 @@ posts.txt
 ##  Example content:
 
 User123: This is a bad post check http://example.com
+
 User456: I love learning Python
+
 User123: Stop spreading hate visit https://dangerous-link.com
+
 User789: This platform is toxic sometimes
+
+
 Output Files Generated
 
 1. Cleaned Posts File
-cleaned_posts.txt
+  cleaned_posts.txt
 
-Contains sanitized posts where banned words are replaced.
+  Contains sanitized posts where banned words are replaced.
 
 Example:
 
-User123: This is a *** post check http://example.com
-User123: Stop spreading *** visit https://dangerous-link.com
+  User123: This is a *** post check http://example.com
+  User123: Stop spreading *** visit https://dangerous-link.com
 
 2. Extracted Links File
-links_found.txt
+  links_found.txt
 
-Contains all detected URLs from posts.
+  Contains all detected URLs from posts.
 
 Example:
 
-http://example.com
-https://dangerous-link.com
-Features
+  http://example.com
+  
+  https://dangerous-link.com
+
+## Features
+
 Automatic detection of banned words
+
 Case-insensitive word filtering
+
 Replacement of unsafe words with ***
 URL extraction using Regex
 User violation tracking system
