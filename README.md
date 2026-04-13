@@ -81,9 +81,16 @@ Automatic detection of banned words
 
 Case-insensitive word filtering
 
+
 Replacement of unsafe words with ***
+
 URL extraction using Regex
+
 User violation tracking system
+
 Automatic input file generation if missing
+
 Summary moderation report generation
+
 Output saved into separate files
+
